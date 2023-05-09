@@ -1,0 +1,170 @@
+.body{
+    background-color: chartreuse;
+}
+
+#titulo{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+color: rgb(255, 255, 255);
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgb(84, 179, 84), rgb(1, 27, 1));
+    min-height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    padding-top: 40px;
+}
+
+header > h1{
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 10px 10px 10px black;
+}
+
+header > p{
+    text-shadow: 2px 2px 2px black;
+}
+
+nav{
+    background-color: darkgreen;
+    padding: 10px;
+    box-shadow: 0px 7px 7px black;
+}
+
+nav > a{
+    color: white;
+    padding: 10px; /*separa os menus*/
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 1s;
+}
+
+nav > a:hover{
+    background-color: rgb(94, 255, 1);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 3px;   
+}
+
+main{
+    min-width: 300px;
+    max-width: 1500px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px; /*afastar da borda*/
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    border-bottom-left-radius: 10px; /*borda arredondada*/
+    border-bottom-right-radius: 10px;
+}
+
+main h1{
+    color:var(--cor5);
+    font-family: var(--fonte-android);
+    font-size: 2em;  
+}
+
+main h2{
+    font-family: var(--fonte-android);
+    color: var(--cor4);
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 8px;
+}
+
+main p{
+    margin: 15px 0px 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+main a{
+    font-weight: bold;
+    color: var(--cor3);
+    text-decoration: none;
+}
+
+main img{
+    width: 80%;
+}
+
+main img.pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+
+}
+
+.hmd{
+   font-family: cursive;
+}
+
+.t{
+    font-family:Arial, Helvetica, sans-serif;
+ }
+
+.pv{
+    background-image: linear-gradient(to right, rgb(84, 179, 84), rgb(255, 255, 255)); min-width: 150px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(18, 78, 3);
+   background-color: rgb(95, 168, 22);
+}
+
+.snm{
+    background-image: linear-gradient(to right, rgb(84, 179, 84), rgb(255, 255, 255)); min-width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+   color: rgb(18, 78, 3);
+   background-color: rgb(95, 168, 22);
+}
+
+.video{
+    background-color: darkgreen;
+    margin-bottom: 30px;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position:relative;
+}
+
+.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside{
+  background-color: rgb(129, 189, 9);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 0px 0px;
+}
+
+aside > h3{
+    background-color:rgb(43, 85, 2) ;
+    color: azure;
+    padding: 10px; 
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}  
+
+aside > ul{
+    list-style-type: '\1F5F8\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+.rodape{
+    background-color: rgb(46, 92, 1);
+    color: azure;
+    text-align: center;
+}
+
+
+
